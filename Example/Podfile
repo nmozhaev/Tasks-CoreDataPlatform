@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CoreDataPlatform_Tests' do
+  pod 'CoreDataPlatform', :path => '../'
+  
+  
+end
