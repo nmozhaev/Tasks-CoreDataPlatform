@@ -1,6 +1,8 @@
+source 'git@github.com:nmozhaev/Tasks-Specs.git'
 use_frameworks!
 target 'CoreDataPlatform_Tests' do
-  pod 'CoreDataPlatform', :path => '../'
   
+  pod 'CoreDataPlatform', :path => '../'
+  pod 'Domain'
   
 end

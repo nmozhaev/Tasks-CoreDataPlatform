@@ -1,0 +1,24 @@
+PODS:
+  - CoreDataPlatform (1.0.0):
+    - Domain
+  - Domain (1.0.0)
+
+DEPENDENCIES:
+  - CoreDataPlatform (from `../`)
+  - Domain
+
+SPEC REPOS:
+  "git@github.com:nmozhaev/Tasks-Specs.git":
+    - Domain
+
+EXTERNAL SOURCES:
+  CoreDataPlatform:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreDataPlatform: 337d47fcf840ea3e3eb454e0cdd89b91ec6a69ea
+  Domain: 427389b0db91291bc500e858f69220f94861d393
+
+PODFILE CHECKSUM: 37ad85f43d95eb65078ced6c018ebeb336a49b3e
+
+COCOAPODS: 1.8.4

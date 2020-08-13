@@ -1,0 +1,31 @@
+{
+  "name": "CoreDataPlatform",
+  "version": "1.0.0",
+  "summary": "A short description of CoreDataPlatform.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nmozhaev/Tasks-CoreDataPlatform",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nmozhaev": "mozhaevnick@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nmozhaev/Tasks-CoreDataPlatform.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "CoreDataPlatform/Classes/**/*.{h,m,swift}",
+  "resources": "CoreDataPlatform/Classes/Tasks.xcdatamodeld",
+  "swift_versions": "5.2",
+  "frameworks": "CoreData",
+  "dependencies": {
+    "Domain": [
+
+    ]
+  },
+  "swift_version": "5.2"
+}
