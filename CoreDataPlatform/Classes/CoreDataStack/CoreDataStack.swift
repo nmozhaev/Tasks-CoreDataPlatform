@@ -43,7 +43,8 @@ public class CoreDataStack {
     
     private func configure() {
         #if DEBUG
-        guard storeContainer.persistentStoreDescriptions.isEmpty else { return }
+        guard storeContainer.persistentStoreDescriptions.filter({ $0.type == NSInMemoryStoreType }).isEmpty
+            else { return }
         for entity in storeContainer.managedObjectModel.entities {
             guard let entityName = entity.name else { return }
             do {

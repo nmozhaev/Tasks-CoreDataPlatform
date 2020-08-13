@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreDataPlatform'
-  s.version          = '1.0.0'
-  s.summary          = 'A platform for CoreData manipulations'
+  s.version          = '1.0.1'
+  s.summary          = 'A platform for CoreData manipulations.'
 
   s.description      = <<-DESC
   This pod includes protocols realization from Domain pod. Each service is accessible through ServiceProvider which is the only public class in the pod.
